@@ -1,2 +1,3 @@
 # CS306-Project
 We decided to collect data on education. For this, we downloaded 6 datasets and combined them using python. Then we deleted the space. We have correctly added Continent Names with country name using VLOOKUP function. In the dataset we have, there are enrollment rates and attandence rates of students who go to primary school. On the Education side, there is the average number of years an adult has studied and the literacy rate. There is also an attribute that shows the death rates of their children according to the education level of the mothers.
+![image](https://user-images.githubusercontent.com/109996636/225109074-394854d4-5a1c-4ef4-8f7f-37c796e54791.png)
