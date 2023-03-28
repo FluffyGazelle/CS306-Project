@@ -1,4 +1,17 @@
 # CS306-Project
-We decided to collect data on education. For this, we downloaded 6 datasets and combined them using python. Then we deleted the space. We have correctly added Continent Names with country name using VLOOKUP function. In the dataset we have, there are enrollment rates and attandence rates of students who go to primary school. On the Education side, there is the average number of years an adult has studied and the literacy rate. There is also an attribute that shows the death rates of their children according to the education level of the mothers. We made a week entity and added participation constraint, as Primary School, Education and Child Morality cannot have a value on their own without the country. Since each country has only one continent and each primary school has only one country, we made one to many relations.
 
-![image](https://user-images.githubusercontent.com/109996636/225109074-394854d4-5a1c-4ef4-8f7f-37c796e54791.png)
+Nur Ayca İlhan 26701 Kaan Akçay 27928, Elif Özvarış 26752, Kutay Yüceak 28337, Muammer Tunahan Yıldız 27968
+
+We changed our dataset because we had some difficulties while looking for 5 entities. Although we found 5 entities, after the submission it is said that we should find 5 entities apart from Country and Continent. Therefore, we decided to collect data on various risk factors of deaths. For this, we downloaded 1 dataset called “Number of deaths by risk factor, World” under the title “Obesity”.
+
+Deleted attributes from original dataset:
+● High systolic blood pressure
+● Secondhand smoke
+● Unsafe sex
+● Low physical activity
+● High fasting plasma glucose
+● High body-mass index
+● Iron deficiency
+● Child stunting
+● Vitamin A deficiency
+● Low bone mineral density
