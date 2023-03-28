@@ -1,0 +1,105 @@
+19:25:30 [ERR][      Workbench]: Console redirection failed.
+19:25:30 [INF][      Workbench]: Starting up Workbench
+19:25:30 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 1024772218
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 44503040
+19:25:30 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-UBBRIKR
+	USERPROFILE = C:\Users\yucea
+	HOMEPATH = \Users\yucea
+	LOCALAPPDATA = C:\Users\yucea\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+	LOGONSERVER = \\DESKTOP-UBBRIKR
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	USERNAME = yucea
+	__PSLockDownPolicy = 0
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	APPDATA = C:\Users\yucea\AppData\Roaming
+	Path = C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+	PROCESSOR_LEVEL = 25
+	OneDrive = C:\Users\yucea\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-UBBRIKR
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+	OneDriveConsumer = C:\Users\yucea\OneDrive
+	USERDOMAIN = DESKTOP-UBBRIKR
+	SystemDrive = C:
+	TEMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 12
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 2100
+	PUBLIC = C:\Users\Public
+	__COMPAT_LAYER = DetectorsAppHealth
+19:25:30 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+19:25:30 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+19:25:30 [INF][ mforms managed]: Initializing mforms wrapper
+19:25:30 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\yucea\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+19:25:30 [INF][      WBContext]: WbContext::init
+19:25:30 [INF][            WBA]: Looking for extension modules for WBA...
+19:25:30 [INF][            WBA]: 0 extension modules found
+19:25:30 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+19:25:30 [WRN][            grt]: C:\Users\yucea\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{5489B1AC-FA17-4EA9-A6C6-60C77F403A81}' <object GrtObject> key=owner could not be resolved
+19:25:30 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+19:25:31 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: C:\Users\yucea\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.6
+	OS: Microsoft Windows 10 Pro
+	CPU: 12x AMD Ryzen 5 5600 6-Core Processor              , 15.9 GiB RAM
+	Active video adapter AMD Radeon RX 6800
+	Installed video RAM: -1 MB
+	Current video mode: 2560 x 1440 x 4294967296 renk
+	Used bit depth: 32
+	Driver version: 31.0.12029.10015
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\amdxc64.dll
+	Current user language: Türkçe (Türkiye)
+
+19:25:31 [INF][      Workbench]: UI is up
+19:25:31 [INF][      Workbench]: Running the application
+19:25:32 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+19:25:32 [INF][        WQE.net]: Launching SQL IDE
+19:25:33 [INF][        WQE.net]: SQL IDE UI is ready
+19:25:55 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+19:26:04 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+19:26:05 [INF][        WQE.net]: Launching SQL IDE
+19:26:05 [INF][        WQE.net]: SQL IDE UI is ready
+21:23:22 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+21:23:23 [INF][      Workbench]: Shutting down Workbench
+21:23:23 [INF][ mforms managed]: Shutting down mforms wrapper
+21:23:23 [INF][      Workbench]: Done

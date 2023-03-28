@@ -1,0 +1,66 @@
+19:24:36 [ERR][      Workbench]: Console redirection failed.
+19:24:36 [INF][      Workbench]: Starting up Workbench
+19:24:36 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" -run "import grt;grt.modules.Workbench.showConnectionManager()"
+	CurrentDirectory: C:\Users\yucea\OneDrive\Belgeler
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 1024717671
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 42512384
+19:24:36 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-UBBRIKR
+	USERPROFILE = C:\Users\yucea
+	HOMEPATH = \Users\yucea
+	LOCALAPPDATA = C:\Users\yucea\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+	LOGONSERVER = \\DESKTOP-UBBRIKR
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	USERNAME = yucea
+	__PSLockDownPolicy = 0
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\yucea\AppData\Roaming
+	Path = C:\Program Files\Microsoft Office\Root\Office16\;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools;C:\Program Files\Microsoft Office\root\Client
+	PROCESSOR_LEVEL = 25
+	OneDrive = C:\Users\yucea\OneDrive
+	TEMP = C:\Users\yucea\AppData\Local\Temp
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-UBBRIKR
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+	OneDriveConsumer = C:\Users\yucea\OneDrive
+	USERDOMAIN = DESKTOP-UBBRIKR
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 12
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 2100
+	PUBLIC = C:\Users\Public
+19:24:36 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+19:24:36 [INF][      Workbench]: Exiting as another instance of WB is already running.
+19:24:36 [ERR][      WBContext]: Unknown file type import grt;grt.modules.Workbench.showConnectionManager()
+19:24:37 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+19:24:38 [INF][        WQE.net]: Launching SQL IDE
+19:24:38 [INF][        WQE.net]: SQL IDE UI is ready
+19:24:43 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (kutay_workbench))
+19:24:43 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (kutay_workbench))
+19:24:44 [INF][      Workbench]: Shutting down Workbench
+19:24:44 [INF][ mforms managed]: Shutting down mforms wrapper
+19:24:44 [INF][      Workbench]: Done

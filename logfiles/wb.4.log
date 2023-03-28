@@ -1,0 +1,241 @@
+18:32:42 [ERR][      Workbench]: Console redirection failed.
+18:32:42 [INF][      Workbench]: Starting up Workbench
+18:32:42 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Users\yucea\AppData\Local\Temp\MSICE85.tmp-
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 1021604078
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 44838912
+18:32:42 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-UBBRIKR
+	USERPROFILE = C:\Users\yucea
+	HOMEPATH = \Users\yucea
+	LOCALAPPDATA = C:\Users\yucea\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+	LOGONSERVER = \\DESKTOP-UBBRIKR
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	USERNAME = yucea
+	__PSLockDownPolicy = 0
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	APPDATA = C:\Users\yucea\AppData\Roaming
+	Path = C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+	PROCESSOR_LEVEL = 25
+	OneDrive = C:\Users\yucea\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-UBBRIKR
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+	OneDriveConsumer = C:\Users\yucea\OneDrive
+	USERDOMAIN = DESKTOP-UBBRIKR
+	SystemDrive = C:
+	TEMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 12
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 2100
+	PUBLIC = C:\Users\Public
+	__COMPAT_LAYER = DetectorsAppHealth Installer
+18:32:42 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+18:32:42 [INF][      Workbench]: This is the first start of a new version. Doing some clean up.
+18:32:42 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+18:32:42 [INF][ mforms managed]: Initializing mforms wrapper
+18:32:42 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\yucea\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+18:32:42 [INF][      WBContext]: WbContext::init
+18:32:43 [INF][            WBA]: Looking for extension modules for WBA...
+18:32:43 [INF][            WBA]: 0 extension modules found
+18:32:43 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+18:32:43 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+18:32:43 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: C:\Users\yucea\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.6
+	OS: Microsoft Windows 10 Pro
+	CPU: 12x AMD Ryzen 5 5600 6-Core Processor              , 15.9 GiB RAM
+	Active video adapter AMD Radeon RX 6800
+	Installed video RAM: -1 MB
+	Current video mode: 2560 x 1440 x 4294967296 renk
+	Used bit depth: 32
+	Driver version: 31.0.12029.10015
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\amdxc64.dll
+	Current user language: Türkçe (Türkiye)
+
+18:32:43 [INF][      Workbench]: UI is up
+18:32:44 [INF][      Workbench]: Running the application
+18:32:46 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+18:32:46 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+18:32:52 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+18:32:52 [INF][  column_widths]: Initializing column width cache for Local_instance_MySQL80
+18:32:52 [INF][        WQE.net]: Launching SQL IDE
+18:32:52 [INF][        WQE.net]: SQL IDE UI is ready
+18:35:53 [ERR][wb_admin_control.py:get_config_options:760]: Could not open the file "C:\ProgramData\MySQL\MySQL Server 8.0\my.ini": 'charmap' codec can't decode byte 0x9d in position 3631: character maps to <undefined>
+18:35:53 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version '8.0.32', conn status = True, active plugins = ['sha2_cache_cleaner', 'INNODB_METRICS', 'INNODB_CMP', 'INNODB_FT_INDEX_CACHE', 'INNODB_BUFFER_POOL_STATS', 'INNODB_CACHED_INDEXES', 'INNODB_TABLES', 'INNODB_TEMP_TABLE_INFO', 'MEMORY', 'caching_sha2_password', 'BLACKHOLE', 'INNODB_COLUMNS', 'PERFORMANCE_SCHEMA', 'mysqlx', 'InnoDB', 'INNODB_CMP_RESET', 'INNODB_INDEXES', 'sha256_password', 'INNODB_VIRTUAL', 'INNODB_CMP_PER_INDEX_RESET', 'INNODB_BUFFER_PAGE_LRU', 'INNODB_FT_DEFAULT_STOPWORD', 'TempTable', 'INNODB_FT_INDEX_TABLE', 'MyISAM', 'INNODB_FT_DELETED', 'ngram', 'INNODB_FT_CONFIG', 'INNODB_TABLESTATS', 'ARCHIVE', 'CSV', 'binlog', 'MRG_MYISAM', 'INNODB_SESSION_TEMP_TABLESPACES', 'INNODB_CMPMEM', 'mysql_native_password', 'INNODB_FT_BEING_DELETED', 'mysqlx_cache_cleaner', 'INNODB_CMPMEM_RESET', 'daemon_keyring_proxy_plugin', 'INNODB_BUFFER_PAGE', 'INNODB_TABLESPACES', 'INNODB_CMP_PER_INDEX', 'INNODB_TRX']
+18:35:53 [WRN][         mforms]: Resource file not found: mysql-logo-80.png
+18:35:54 [WRN][         mforms]: Resource file not found: mysql-logo-80.png
+18:36:21 [ERR][ sqlide-history]: Can't open SQL history file C:\Users\yucea\AppData\Roaming\MySQL\Workbench\sql_history\2023-03-08
+18:37:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:14 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:31 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:31 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:32 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:32 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:32 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:41 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:51 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:51 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:54 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:37:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:38:03 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:38:04 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:38:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:38:07 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:38:28 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+18:38:40 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+18:38:46 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+18:39:20 [ERR][SQL Editor Form]: Error Code: 1050. Table 'continents' already exists
+18:40:59 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:41:34 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:44:25 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:44:26 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:44:28 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:44:39 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:04 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:10 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:15 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:15 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:15 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:15 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:18 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:45:25 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+18:46:00 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:07 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:25 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:33 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:36 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:39 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:46 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:46 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:46 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:48 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:49 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:46:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:04 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:05 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:13 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:14 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:15 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:17 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:20 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:23 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:23 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:23 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:25 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:26 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:28 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:30 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:32 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:33 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:45 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:46 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:54 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:47:58 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:48:05 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 8
+18:48:20 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:48:54 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 8
+18:49:23 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 7
+18:49:33 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:50:35 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:50:37 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:50:59 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:04 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:04 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:10 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:27 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:31 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:31 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:31 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:53 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:51:55 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:52:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:52:07 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:52:10 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:52:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:52:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+18:52:12 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:33 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:35 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:35 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:35 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:36 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:48 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:48 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:49 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:49 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:54 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:08:59 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:10:25 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+19:10:41 [ERR][SQL Editor Form]: Error Code: 1146. Table 'kutay_workbench.continent' doesn't exist
+19:11:00 [ERR][SQL Editor Form]: Error Code: 1146. Table 'kutay_workbench.continent_countries' doesn't exist

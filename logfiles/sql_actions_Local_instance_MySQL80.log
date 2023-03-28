@@ -1,0 +1,702 @@
+[1, 18:36:16] Apply changes to kutay_deneme: Applying object changes ...
+[1, 18:36:21] Applying changes to kutay_deneme...: 
+[1, 18:36:21] : Changes applied to kutay_deneme
+[1, 18:36:24] Apply changes to kutay_deneme: Changes applied
+[2, 18:38:28] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Running...
+[2, 18:38:28] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[3, 18:38:40] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Running...
+[3, 18:38:40] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[4, 18:38:46] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Running...
+[4, 18:38:46] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[5, 18:39:12] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Running...
+[5, 18:39:12] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): 0 row(s) affected
+[6, 18:39:20] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Running...
+[6, 18:39:20] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Error Code: 1050. Table 'continents' already exists
+[7, 18:41:19] create database kutay_workbench: Running...
+[7, 18:41:19] create database kutay_workbench: 1 row(s) affected
+[8, 18:41:45] use kutay_workbench: Running...
+[8, 18:41:45] use kutay_workbench: 0 row(s) affected
+[9, 18:43:29] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): Running...
+[9, 18:43:29] create table continents(
+continent_code Varchar(5) Not Null,
+continent_name Varchar(50),
+primary key (continent_code)
+): 0 row(s) affected
+[10, 18:44:05] DROP DATABASE `kutay_deneme`: Running...
+[10, 18:44:05] DROP DATABASE `kutay_deneme`: 1 row(s) affected
+[11, 18:45:25] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+population INT,
+primary key(iso_code)
+): Running...
+[11, 18:45:25] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+population INT,
+primary key(iso_code)
+): Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[12, 18:45:35] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+population INT,
+primary key(iso_code)
+): Running...
+[12, 18:45:36] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+population INT,
+primary key(iso_code)
+): 0 row(s) affected
+[13, 18:48:05] create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade,
+
+): Running...
+[13, 18:48:05] create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade,
+
+): Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 8
+[14, 18:48:54] Create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade,
+
+): Running...
+[14, 18:48:54] Create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade,
+
+): Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 8
+[15, 18:49:23] Create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade,
+): Running...
+[15, 18:49:23] Create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade,
+): Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 7
+[16, 18:49:37] Create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade
+): Running...
+[16, 18:49:37] Create table continents_countries(
+continent_code Varchar(5),
+iso_code Varchar(5),
+primary key(continent_code, iso_code),
+foreign key (continent_code) references continents(continent_code) On Delete Cascade,
+foreign key (iso_code) references countries(iso_code) On Delete Cascade
+): 0 row(s) affected
+[17, 18:52:19] create table cases(
+date_info datetime,
+iso_code varchar(5) NOT NULL,
+new_cases DECIMAL,
+primary key(iso_code, date_info),
+Foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+): Running...
+[17, 18:52:19] create table cases(
+date_info datetime,
+iso_code varchar(5) NOT NULL,
+new_cases DECIMAL,
+primary key(iso_code, date_info),
+Foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+): 0 row(s) affected
+[18, 19:10:41] insert into countries values ('TUR', 'Turkey', 84780000): Running...
+[18, 19:10:41] insert into countries values ('TUR', 'Turkey', 84780000): 1 row(s) affected
+[19, 19:10:41] insert Into continent Values ('EU', 'Europe'): Running...
+[19, 19:10:41] insert Into continent Values ('EU', 'Europe'): Error Code: 1146. Table 'kutay_workbench.continent' doesn't exist
+[20, 19:11:00] insert Into continents Values ('EU', 'Europe'): Running...
+[20, 19:11:00] insert Into continents Values ('EU', 'Europe'): 1 row(s) affected
+[21, 19:11:00] Insert Into continent_countries Values ('EU', 'TUR'): Running...
+[21, 19:11:00] Insert Into continent_countries Values ('EU', 'TUR'): Error Code: 1146. Table 'kutay_workbench.continent_countries' doesn't exist
+[22, 19:11:17] Insert Into continents_countries Values ('EU', 'TUR'): Running...
+[22, 19:11:17] Insert Into continents_countries Values ('EU', 'TUR'): 1 row(s) affected
+[23, 19:12:37] select * from countries
+LIMIT 0, 1000
+: Running...
+[23, 19:12:37] select * from countries
+LIMIT 0, 1000
+: Fetching...
+[23, 19:12:37] select * from countries
+LIMIT 0, 1000
+: 1 row(s) returned
+[1, 21:25:17] Apply changes to death_database: Applying object changes ...
+[1, 21:25:19] Applying changes to death_database...: 
+[1, 21:25:19] : Changes applied to death_database
+[1, 21:25:20] Apply changes to death_database: Changes applied
+[2, 21:25:47] use death_database: Running...
+[2, 21:25:47] use death_database: 0 row(s) affected
+[3, 21:28:36] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+population INT,
+primary key(iso_code)
+): Running...
+[3, 21:28:36] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+population INT,
+primary key(iso_code)
+): 0 row(s) affected
+[4, 21:31:13] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[4, 21:31:13] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[5, 21:31:13] SHOW DATABASES: Executing 
+[5, 21:31:13] SHOW DATABASES: OK
+[6, 21:32:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[6, 21:32:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[7, 21:32:57] SHOW DATABASES: Executing 
+[7, 21:32:57] SHOW DATABASES: OK
+[8, 21:33:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[8, 21:33:10] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[9, 21:33:10] SHOW TABLES FROM `death_database` like 'death': Executing 
+[9, 21:33:10] SHOW TABLES FROM `death_database` like 'death': OK
+[10, 21:35:26]  CREATE TABLE `death_database`.`death` (`Entity` text, `Deaths - Cause: All causes - Risk: Diet low in whole grains - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Alcohol use - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in fruits - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low birth weight - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Child wasting - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sex - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in nuts and seeds - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in vegetables - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low physical activity - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Smoking - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High fasting plasma glucose - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High body-mass index - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sanitation - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: No access to handwashing facility - Sex: Both - Age: All Ages (Number)` int): Executing 
+[10, 21:35:26]  CREATE TABLE `death_database`.`death` (`Entity` text, `Deaths - Cause: All causes - Risk: Diet low in whole grains - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Alcohol use - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in fruits - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low birth weight - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Child wasting - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sex - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in nuts and seeds - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in vegetables - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low physical activity - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Smoking - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High fasting plasma glucose - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High body-mass index - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sanitation - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: No access to handwashing facility - Sex: Both - Age: All Ages (Number)` int): Error Code: 1059
+Identifier name 'Deaths - Cause: All causes - Risk: Diet low in whole grains - Sex: Both - Age: All Ages (Number)' is too long
+[11, 21:36:19]  CREATE TABLE `death_database`.`death` (`Deaths - Cause: All causes - Risk: Diet low in whole grains - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Alcohol use - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in fruits - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low birth weight - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Child wasting - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sex - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in nuts and seeds - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in vegetables - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low physical activity - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Smoking - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High fasting plasma glucose - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High body-mass index - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sanitation - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: No access to handwashing facility - Sex: Both - Age: All Ages (Number)` int): Executing 
+[11, 21:36:19]  CREATE TABLE `death_database`.`death` (`Deaths - Cause: All causes - Risk: Diet low in whole grains - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Alcohol use - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in fruits - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low birth weight - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Child wasting - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sex - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in nuts and seeds - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in vegetables - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low physical activity - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Smoking - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High fasting plasma glucose - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: High body-mass index - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Unsafe sanitation - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: No access to handwashing facility - Sex: Both - Age: All Ages (Number)` int): Error Code: 1059
+Identifier name 'Deaths - Cause: All causes - Risk: Diet low in whole grains - Sex: Both - Age: All Ages (Number)' is too long
+[12, 21:36:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[12, 21:36:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[13, 21:36:21] SHOW TABLES FROM `death_database` like 'death': Executing 
+[13, 21:36:21] SHOW TABLES FROM `death_database` like 'death': OK
+[14, 21:36:44]  CREATE TABLE `death_database`.`death` (`Entity` text, `Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in vegetables - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low physical activity - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Smoking - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low bone mineral density - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Vitamin A deficiency - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Child stunting - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Discontinued breastfeeding - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Non-exclusive breastfeeding - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Iron deficiency - Sex: Both - Age: All Ages (Number)` int): Executing 
+[14, 21:36:44]  CREATE TABLE `death_database`.`death` (`Entity` text, `Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Diet low in vegetables - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low physical activity - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Smoking - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Low bone mineral density - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Vitamin A deficiency - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Child stunting - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Discontinued breastfeeding - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Non-exclusive breastfeeding - Sex: Both - Age: All Ages (Number)` int, `Deaths - Cause: All causes - Risk: Iron deficiency - Sex: Both - Age: All Ages (Number)` int): Error Code: 1059
+Identifier name 'Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All A' is too long
+[15, 21:37:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[15, 21:37:42] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[16, 21:37:42] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[16, 21:37:42] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[17, 21:38:06] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`iso_code`) VALUES(?)': Executing 
+[17, 21:38:06] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`iso_code`) VALUES(?)': OK
+[18, 21:38:52] DEALLOCATE PREPARE stmt: Executing 
+[18, 21:38:52] DEALLOCATE PREPARE stmt: OK
+[19, 21:41:07] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[19, 21:41:07] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[20, 21:41:07] SHOW DATABASES: Executing 
+[20, 21:41:07] SHOW DATABASES: OK
+[21, 21:41:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[21, 21:41:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[22, 21:41:11] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[22, 21:41:11] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[23, 21:42:19] DROP TABLE `death_database`.`countries`: Running...
+[23, 21:42:19] DROP TABLE `death_database`.`countries`: 0 row(s) affected
+[24, 21:43:14] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+primary key(iso_code)
+): Running...
+[24, 21:43:14] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+primary key(iso_code)
+): 0 row(s) affected
+[25, 21:43:26] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[25, 21:43:26] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[26, 21:43:26] SHOW DATABASES: Executing 
+[26, 21:43:26] SHOW DATABASES: OK
+[27, 21:43:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[27, 21:43:29] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[28, 21:43:29] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[28, 21:43:29] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[29, 21:43:53] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`iso_code`,`countries_name`) VALUES(?,?)': Executing 
+[29, 21:43:53] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`iso_code`,`countries_name`) VALUES(?,?)': OK
+[30, 21:44:02] DEALLOCATE PREPARE stmt: Executing 
+[30, 21:44:02] DEALLOCATE PREPARE stmt: OK
+[31, 21:45:30] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[31, 21:45:30] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[32, 21:45:30] SHOW DATABASES: Executing 
+[32, 21:45:30] SHOW DATABASES: OK
+[33, 21:45:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[33, 21:45:31] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[34, 21:45:31] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[34, 21:45:31] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[35, 21:46:04] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`) VALUES(?,?)': Executing 
+[35, 21:46:04] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`) VALUES(?,?)': OK
+[36, 21:46:39] DEALLOCATE PREPARE stmt: Executing 
+[36, 21:46:39] DEALLOCATE PREPARE stmt: OK
+[37, 21:50:56] DROP TABLE `death_database`.`countries`: Running...
+[37, 21:50:56] DROP TABLE `death_database`.`countries`: 0 row(s) affected
+[38, 21:51:05] create database kutay_workbench: Running...
+[38, 21:51:05] create database kutay_workbench: Error Code: 1007. Can't create database 'kutay_workbench'; database exists
+[39, 21:51:17] create database kutay_workbench: Running...
+[39, 21:51:17] create database kutay_workbench: Error Code: 1007. Can't create database 'kutay_workbench'; database exists
+[40, 21:51:18] use death_database: Running...
+[40, 21:51:18] use death_database: 0 row(s) affected
+[41, 21:51:33] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+primary key(iso_code,countries_name)
+): Running...
+[41, 21:51:33] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+primary key(iso_code,countries_name)
+): 0 row(s) affected
+[42, 21:51:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[42, 21:51:45] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[43, 21:51:45] SHOW DATABASES: Executing 
+[43, 21:51:45] SHOW DATABASES: OK
+[44, 21:51:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[44, 21:51:47] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[45, 21:51:47] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[45, 21:51:47] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[46, 21:52:03] DROP TABLE `death_database`.`countries`: Running...
+[46, 21:52:03] DROP TABLE `death_database`.`countries`: 0 row(s) affected
+[47, 21:55:40] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+year INT Not Null,
+primary key(iso_code,year)
+): Running...
+[47, 21:55:40] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+year INT Not Null,
+primary key(iso_code,year)
+): 0 row(s) affected
+[48, 21:55:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[48, 21:55:57] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[49, 21:55:57] SHOW DATABASES: Executing 
+[49, 21:55:57] SHOW DATABASES: OK
+[50, 21:55:58] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[50, 21:55:58] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[51, 21:55:58] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[51, 21:55:58] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[52, 21:56:19] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`,`year`) VALUES(?,?,?)': Executing 
+[52, 21:56:19] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`,`year`) VALUES(?,?,?)': OK
+[53, 22:05:41] DEALLOCATE PREPARE stmt: Executing 
+[53, 22:05:41] DEALLOCATE PREPARE stmt: OK
+[54, 22:06:28] select * from countries
+LIMIT 0, 1000
+: Running...
+[54, 22:06:28] select * from countries
+LIMIT 0, 1000
+: Fetching...
+[54, 22:06:28] select * from countries
+LIMIT 0, 1000
+: 1000 row(s) returned
+[55, 22:16:12] DROP TABLE `death_database`.`countries`: Running...
+[55, 22:16:12] DROP TABLE `death_database`.`countries`: 0 row(s) affected
+[56, 22:17:02] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+year INT Not Null,
+primary key(iso_code)
+): Running...
+[56, 22:17:02] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+year INT Not Null,
+primary key(iso_code)
+): 0 row(s) affected
+[57, 22:17:12] DROP TABLE `death_database`.`countries`: Running...
+[57, 22:17:12] DROP TABLE `death_database`.`countries`: 0 row(s) affected
+[58, 22:17:21] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+year INT,
+primary key(iso_code)
+): Running...
+[58, 22:17:21] create table countries(
+iso_code Varchar(5) Not Null,
+countries_name Varchar(50),
+year INT,
+primary key(iso_code)
+): 0 row(s) affected
+[59, 22:17:25] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[59, 22:17:25] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[60, 22:17:31] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[60, 22:17:31] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[61, 22:17:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[61, 22:17:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[62, 22:17:35] SHOW DATABASES: Executing 
+[62, 22:17:35] SHOW DATABASES: OK
+[63, 22:17:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[63, 22:17:37] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[64, 22:17:37] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[64, 22:17:37] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[65, 22:17:54] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`,`year`) VALUES(?,?,?)': Executing 
+[65, 22:17:54] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`,`year`) VALUES(?,?,?)': OK
+[66, 22:18:09] DEALLOCATE PREPARE stmt: Executing 
+[66, 22:18:09] DEALLOCATE PREPARE stmt: OK
+[67, 22:18:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[67, 22:18:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[68, 22:18:21] SHOW DATABASES: Executing 
+[68, 22:18:21] SHOW DATABASES: OK
+[69, 22:18:23] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[69, 22:18:23] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[70, 22:18:23] SHOW COLUMNS FROM `death_database`.`countries`: Executing 
+[70, 22:18:23] SHOW COLUMNS FROM `death_database`.`countries`: OK
+[71, 22:18:41] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`,`year`) VALUES(?,?,?)': Executing 
+[71, 22:18:41] PREPARE stmt FROM 'INSERT INTO `death_database`.`countries` (`countries_name`,`iso_code`,`year`) VALUES(?,?,?)': OK
+[72, 22:20:17] DEALLOCATE PREPARE stmt: Executing 
+[72, 22:20:17] DEALLOCATE PREPARE stmt: OK
+[73, 22:20:27] select * from countries
+LIMIT 0, 1000
+: Running...
+[73, 22:20:27] select * from countries
+LIMIT 0, 1000
+: Fetching...
+[73, 22:20:27] select * from countries
+LIMIT 0, 1000
+: 205 row(s) returned
+[74, 22:41:11] create table Diet(
+high_sodium INT,
+low_fruits INT,
+low_nuts_seeds INT,
+low_whole_grain INT,
+low_vegetables INT,
+iso_code Varchar(5) Not Null,
+primary key (iso_code) ,
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): Running...
+[74, 22:41:11] create table Diet(
+high_sodium INT,
+low_fruits INT,
+low_nuts_seeds INT,
+low_whole_grain INT,
+low_vegetables INT,
+iso_code Varchar(5) Not Null,
+primary key (iso_code) ,
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): 0 row(s) affected
+[75, 22:41:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[75, 22:41:21] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[76, 22:41:21] SHOW DATABASES: Executing 
+[76, 22:41:21] SHOW DATABASES: OK
+[77, 22:41:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[77, 22:41:24] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[78, 22:41:24] SHOW COLUMNS FROM `death_database`.`diet`: Executing 
+[78, 22:41:24] SHOW COLUMNS FROM `death_database`.`diet`: OK
+[79, 22:43:05] PREPARE stmt FROM 'INSERT INTO `death_database`.`diet` (`high_sodium`,`low_whole_grain`,`low_fruits`,`low_nuts_seeds`,`low_vegetables`) VALUES(?,?,?,?,?)': Executing 
+[79, 22:43:05] PREPARE stmt FROM 'INSERT INTO `death_database`.`diet` (`high_sodium`,`low_whole_grain`,`low_fruits`,`low_nuts_seeds`,`low_vegetables`) VALUES(?,?,?,?,?)': OK
+[80, 22:44:12] DEALLOCATE PREPARE stmt: Executing 
+[80, 22:44:12] DEALLOCATE PREPARE stmt: OK
+[81, 22:44:21] DROP TABLE `death_database`.`diet`: Running...
+[81, 22:44:21] DROP TABLE `death_database`.`diet`: 0 row(s) affected
+[82, 22:44:24] create table Diet(
+high_sodium INT,
+low_fruits INT,
+low_nuts_seeds INT,
+low_whole_grain INT,
+low_vegetables INT,
+iso_code Varchar(5) Not Null,
+primary key (iso_code) ,
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): Running...
+[82, 22:44:24] create table Diet(
+high_sodium INT,
+low_fruits INT,
+low_nuts_seeds INT,
+low_whole_grain INT,
+low_vegetables INT,
+iso_code Varchar(5) Not Null,
+primary key (iso_code) ,
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): 0 row(s) affected
+[83, 22:44:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[83, 22:44:32] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[84, 22:44:32] SHOW DATABASES: Executing 
+[84, 22:44:32] SHOW DATABASES: OK
+[85, 22:45:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[85, 22:45:00] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[86, 22:45:00] SHOW DATABASES: Executing 
+[86, 22:45:00] SHOW DATABASES: OK
+[87, 22:45:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[87, 22:45:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[88, 22:45:05] SHOW COLUMNS FROM `death_database`.`diet`: Executing 
+[88, 22:45:05] SHOW COLUMNS FROM `death_database`.`diet`: OK
+[89, 22:46:16] PREPARE stmt FROM 'INSERT INTO `death_database`.`diet` (`iso_code`,`high_sodium`,`low_whole_grain`,`low_fruits`,`low_nuts_seeds`,`low_vegetables`) VALUES(?,?,?,?,?,?)': Executing 
+[89, 22:46:16] PREPARE stmt FROM 'INSERT INTO `death_database`.`diet` (`iso_code`,`high_sodium`,`low_whole_grain`,`low_fruits`,`low_nuts_seeds`,`low_vegetables`) VALUES(?,?,?,?,?,?)': OK
+[90, 22:48:48] DEALLOCATE PREPARE stmt: Executing 
+[90, 22:48:48] DEALLOCATE PREPARE stmt: OK
+[91, 22:49:05] select * from diet
+LIMIT 0, 1000
+: Running...
+[91, 22:49:05] select * from diet
+LIMIT 0, 1000
+: Fetching...
+[91, 22:49:05] select * from diet
+LIMIT 0, 1000
+: 205 row(s) returned
+[92, 22:53:10] create table env_factor(
+unsafe_water INT,
+unsafe_sanitation INT,
+hand_washing INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): Running...
+[92, 22:53:10] create table env_factor(
+unsafe_water INT,
+unsafe_sanitation INT,
+hand_washing INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): 0 row(s) affected
+[93, 22:53:33] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[93, 22:53:33] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[94, 22:53:33] SHOW DATABASES: Executing 
+[94, 22:53:33] SHOW DATABASES: OK
+[95, 22:53:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[95, 22:53:35] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[96, 22:53:35] SHOW COLUMNS FROM `death_database`.`env_factor`: Executing 
+[96, 22:53:35] SHOW COLUMNS FROM `death_database`.`env_factor`: OK
+[97, 22:55:00] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`None`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Executing 
+[97, 22:55:00] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`None`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[98, 22:55:33] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`None`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Executing 
+[98, 22:55:33] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`None`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[99, 22:56:08] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`None`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Executing 
+[99, 22:56:08] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`None`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[100, 22:57:58] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`unsafe_sanitation`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Executing 
+[100, 22:57:58] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`unsafe_sanitation`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Error Code: 1110
+Column 'unsafe_sanitation' specified twice
+[101, 22:58:18] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`unsafe_water`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': Executing 
+[101, 22:58:18] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`unsafe_water`,`unsafe_sanitation`,`hand_washing`) VALUES(?,?,?,?)': OK
+[102, 22:59:55] create table air_pol(
+indoor INT,
+outdoor INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+
+): Running...
+[102, 22:59:55] create table air_pol(
+indoor INT,
+outdoor INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+
+): 0 row(s) affected
+[103, 23:00:04] DEALLOCATE PREPARE stmt: Executing 
+[103, 23:00:04] DEALLOCATE PREPARE stmt: OK
+[104, 23:01:02] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[104, 23:01:02] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[105, 23:01:02] SHOW DATABASES: Executing 
+[105, 23:01:02] SHOW DATABASES: OK
+[106, 23:01:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[106, 23:01:04] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[107, 23:01:04] SHOW COLUMNS FROM `death_database`.`air_pol`: Executing 
+[107, 23:01:04] SHOW COLUMNS FROM `death_database`.`air_pol`: OK
+[108, 23:02:57] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Executing 
+[108, 23:02:57] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[109, 23:03:24] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Executing 
+[109, 23:03:24] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[110, 23:05:58] alter table env_factor
+add air_pollution INT: Running...
+[110, 23:05:58] alter table env_factor
+add air_pollution INT: 0 row(s) affected
+Records: 0  Duplicates: 0  Warnings: 0
+[111, 23:06:09] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[111, 23:06:09] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[112, 23:06:09] SHOW DATABASES: Executing 
+[112, 23:06:09] SHOW DATABASES: OK
+[113, 23:06:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[113, 23:06:11] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[114, 23:06:11] SHOW COLUMNS FROM `death_database`.`env_factor`: Executing 
+[114, 23:06:11] SHOW COLUMNS FROM `death_database`.`env_factor`: OK
+[115, 23:06:42] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`air_pollution`) VALUES(?,?)': Executing 
+[115, 23:06:42] PREPARE stmt FROM 'INSERT INTO `death_database`.`env_factor` (`iso_code`,`air_pollution`) VALUES(?,?)': OK
+[116, 23:06:53] DEALLOCATE PREPARE stmt: Executing 
+[116, 23:06:53] DEALLOCATE PREPARE stmt: OK
+[117, 23:07:26] select * from air_pol
+LIMIT 0, 1000
+: Running...
+[117, 23:07:26] select * from air_pol
+LIMIT 0, 1000
+: Fetching...
+[117, 23:07:26] select * from air_pol
+LIMIT 0, 1000
+: 0 row(s) returned
+[118, 23:07:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[118, 23:07:34] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[119, 23:07:34] SHOW DATABASES: Executing 
+[119, 23:07:34] SHOW DATABASES: OK
+[120, 23:07:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[120, 23:07:36] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[121, 23:07:36] SHOW COLUMNS FROM `death_database`.`air_pol`: Executing 
+[121, 23:07:36] SHOW COLUMNS FROM `death_database`.`air_pol`: OK
+[122, 23:08:02] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Executing 
+[122, 23:08:02] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[123, 23:08:52] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Executing 
+[123, 23:08:52] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[124, 23:12:01] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Executing 
+[124, 23:12:01] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`None`) VALUES(?,?,?)': Error Code: 1054
+Unknown column 'None' in 'field list'
+[125, 23:14:24] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`indoor`) VALUES(?,?,?)': Executing 
+[125, 23:14:24] PREPARE stmt FROM 'INSERT INTO `death_database`.`air_pol` (`iso_code`,`outdoor`,`indoor`) VALUES(?,?,?)': OK
+[126, 23:15:53] DEALLOCATE PREPARE stmt: Executing 
+[126, 23:15:53] DEALLOCATE PREPARE stmt: OK
+[127, 23:16:11] select * from air_pol
+LIMIT 0, 1000
+: Running...
+[127, 23:16:11] select * from air_pol
+LIMIT 0, 1000
+: Fetching...
+[127, 23:16:11] select * from air_pol
+LIMIT 0, 1000
+: 205 row(s) returned
+[128, 23:16:44] select * from countries
+LIMIT 0, 1000
+: Running...
+[128, 23:16:44] select * from countries
+LIMIT 0, 1000
+: Fetching...
+[128, 23:16:44] select * from countries
+LIMIT 0, 1000
+: 205 row(s) returned
+[129, 23:16:58] create table addiction(
+smoke INT,
+drug_use INT,
+alcohol INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+
+
+): Running...
+[129, 23:16:58] create table addiction(
+smoke INT,
+drug_use INT,
+alcohol INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+
+
+): 0 row(s) affected
+[130, 23:17:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[130, 23:17:05] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[131, 23:17:05] SHOW DATABASES: Executing 
+[131, 23:17:05] SHOW DATABASES: OK
+[132, 23:17:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[132, 23:17:06] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[133, 23:17:06] SHOW COLUMNS FROM `death_database`.`addiction`: Executing 
+[133, 23:17:06] SHOW COLUMNS FROM `death_database`.`addiction`: OK
+[134, 23:17:50] PREPARE stmt FROM 'INSERT INTO `death_database`.`addiction` (`iso_code`,`alcohol`,`smoke`,`drug_use`) VALUES(?,?,?,?)': Executing 
+[134, 23:17:50] PREPARE stmt FROM 'INSERT INTO `death_database`.`addiction` (`iso_code`,`alcohol`,`smoke`,`drug_use`) VALUES(?,?,?,?)': OK
+[135, 23:19:39] DEALLOCATE PREPARE stmt: Executing 
+[135, 23:19:39] DEALLOCATE PREPARE stmt: OK
+[136, 23:20:58] create table child_mortality(
+child_wasting INT,
+non_bfeeding INT,
+low_birth_weight INT,
+d_bfeeding INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): Running...
+[136, 23:20:58] create table child_mortality(
+child_wasting INT,
+non_bfeeding INT,
+low_birth_weight INT,
+d_bfeeding INT,
+iso_code Varchar(5) Not Null,
+primary key(iso_code),
+foreign key (iso_code) references countries(iso_code) ON DELETE CASCADE
+
+): 0 row(s) affected
+[137, 23:21:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[137, 23:21:15] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[138, 23:21:15] SHOW DATABASES: Executing 
+[138, 23:21:15] SHOW DATABASES: OK
+[139, 23:21:16] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': Executing 
+[139, 23:21:16] SHOW SESSION VARIABLES LIKE 'lower_case_table_names': OK
+[140, 23:21:16] SHOW COLUMNS FROM `death_database`.`child_mortality`: Executing 
+[140, 23:21:16] SHOW COLUMNS FROM `death_database`.`child_mortality`: OK
+[141, 23:22:14] PREPARE stmt FROM 'INSERT INTO `death_database`.`child_mortality` (`iso_code`,`low_birth_weight`,`child_wasting`,`d_bfeeding`,`non_bfeeding`) VALUES(?,?,?,?,?)': Executing 
+[141, 23:22:14] PREPARE stmt FROM 'INSERT INTO `death_database`.`child_mortality` (`iso_code`,`low_birth_weight`,`child_wasting`,`d_bfeeding`,`non_bfeeding`) VALUES(?,?,?,?,?)': OK
+[142, 23:24:25] DEALLOCATE PREPARE stmt: Executing 
+[142, 23:24:25] DEALLOCATE PREPARE stmt: OK
+[143, 23:30:01] SHOW COLUMNS FROM `death_database`.`addiction`: Executing 
+[143, 23:30:01] SHOW COLUMNS FROM `death_database`.`addiction`: OK
