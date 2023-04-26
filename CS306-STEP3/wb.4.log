@@ -1,0 +1,212 @@
+23:40:48 [ERR][      Workbench]: Console redirection failed.
+23:40:48 [INF][      Workbench]: Starting up Workbench
+23:40:48 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: -1968439734
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 42512384
+23:40:48 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-UBBRIKR
+	USERPROFILE = C:\Users\yucea
+	HOMEPATH = \Users\yucea
+	LOCALAPPDATA = C:\Users\yucea\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+	LOGONSERVER = \\DESKTOP-UBBRIKR
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	USERNAME = yucea
+	__PSLockDownPolicy = 0
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	APPDATA = C:\Users\yucea\AppData\Roaming
+	Path = C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+	PROCESSOR_LEVEL = 25
+	OneDrive = C:\Users\yucea\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-UBBRIKR
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+	OneDriveConsumer = C:\Users\yucea\OneDrive
+	USERDOMAIN = DESKTOP-UBBRIKR
+	SystemDrive = C:
+	TEMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 12
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 2100
+	PUBLIC = C:\Users\Public
+23:40:49 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+23:40:49 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+23:40:49 [INF][ mforms managed]: Initializing mforms wrapper
+23:40:49 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\yucea\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+23:40:49 [INF][      WBContext]: WbContext::init
+23:40:50 [INF][            WBA]: Looking for extension modules for WBA...
+23:40:50 [INF][            WBA]: 0 extension modules found
+23:40:50 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+23:40:50 [WRN][            grt]: C:\Users\yucea\AppData\Roaming\MySQL\Workbench\connections.xml:18: link '{4AA7BD3F-9FFB-48CA-A67F-C8A259BD037D}' <object GrtObject> key=owner could not be resolved
+23:40:50 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+23:40:50 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.32 CE build 2612062 (64 bit)
+	Configuration Directory: C:\Users\yucea\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.6
+	OS: Microsoft Windows 10 Pro
+	CPU: 12x AMD Ryzen 5 5600 6-Core Processor              , 15.9 GiB RAM
+	Active video adapter AMD Radeon RX 6800
+	Installed video RAM: -1 MB
+	Current video mode: 2560 x 1440 x 4294967296 renk
+	Used bit depth: 32
+	Driver version: 31.0.12029.10015
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\aticfx64.dll,C:\Windows\System32\DriverStore\FileRepository\u0387206.inf_amd64_081d192bd0a4e0cb\B386218\amdxc64.dll
+	Current user language: Türkçe (Türkiye)
+
+23:40:50 [INF][      Workbench]: UI is up
+23:40:51 [INF][      Workbench]: Running the application
+23:40:53 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.32
+23:40:55 [INF][        WQE.net]: Launching SQL IDE
+23:40:56 [ERR][ SqlEditorPanel]: Could not read file C:\Users\yucea\OneDrive\Masaüstü\DATABASE_STEP2.sql: Failed to open file “C:\Users\yucea\OneDrive\Masaüstü\DATABASE_STEP2.sql”: No such file or directory
+23:40:57 [INF][        WQE.net]: SQL IDE UI is ready
+23:42:15 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'e kutay_workbench' at line 1
+23:43:27 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+3719 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+23:43:27 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1287 'utf8mb3' is deprecated and will be removed in a future release. Please use utf8mb4 instead
+23:43:28 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1287 'utf8mb3' is deprecated and will be removed in a future release. Please use utf8mb4 instead
+23:43:28 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1287 'utf8mb3' is deprecated and will be removed in a future release. Please use utf8mb4 instead
+23:43:29 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1287 'utf8mb3' is deprecated and will be removed in a future release. Please use utf8mb4 instead
+23:43:29 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1287 'utf8mb3' is deprecated and will be removed in a future release. Please use utf8mb4 instead
+23:43:29 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1287 'utf8mb3' is deprecated and will be removed in a future release. Please use utf8mb4 instead
+23:45:44 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.name' in 'field list'
+23:48:17 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN addiction a ON c.iso_code = a.iso_code
+JOIN env_factor ef ON c.iso_code = e' at line 4
+23:49:44 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'JOIN addiction a ON c.iso_code = a.iso_code' at line 4
+23:50:52 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.name' in 'field list'
+23:50:59 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.name' in 'field list'
+23:51:29 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.coutries_name' in 'field list'
+23:52:38 [ERR][SQL Editor Form]: Error Code: 1146. Table 'death_database.views' doesn't exist
+23:52:40 [ERR][SQL Editor Form]: Error Code: 1146. Table 'death_database.views' doesn't exist
+23:54:21 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.name' in 'field list'
+23:57:00 [ERR][SQL Editor Form]: Error Code: 1050. Table 'env_factor_view' already exists
+23:59:13 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.name' in 'field list'
+00:02:43 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'c.name' in 'field list'
+00:16:35 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'ef.unsafe_' in 'field list'
+00:21:14 [ERR][SQL Editor Form]: Error Code: 1222. The used SELECT statements have a different number of columns
+00:28:35 [ERR][SQL Editor Form]: Error Code: 1007. Can't create database 'kutay_workbench'; database exists
+01:03:12 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EXIST (
+    SELECT cmdv.iso_code
+    FROM child_mortality_diet_view cmdv
+    WHE' at line 3
+01:03:23 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EXISTS (
+    SELECT cmdv.iso_code
+    FROM child_mortality_diet_view cmdv
+    WH' at line 3
+01:08:27 [ERR][SQL Editor Form]: Error Code: 1175. You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column. 
+To disable safe mode, toggle the option in Preferences -> SQL Editor and reconnect.
+01:55:52 [ERR][SQL Editor Form]: Error Code: 3819. Check constraint 'ck_smoke_range' is violated.
+01:59:35 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:35 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:35 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+01:59:43 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:43 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:43 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+01:59:44 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:44 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:44 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+01:59:56 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:56 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:58 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+01:59:58 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+02:00:00 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+02:00:00 [WRN][SQL Editor Form]: 0 row(s) affected, 1 warning(s):
+1360 Trigger does not exist
+02:00:05 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:00:06 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:00:14 [ERR][SQL Editor Form]: Error Code: 3819. Check constraint 'ck_smoke_range' is violated.
+02:01:43 [ERR][SQL Editor Form]: Error Code: 3819. Check constraint 'ck_smoke_range' is violated.
+02:03:04 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:03:25 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:03:26 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:03:27 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:03:36 [ERR][SQL Editor Form]: Error Code: 3822. Duplicate check constraint name 'ck_smoke_range'.
+02:03:41 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,
+DROP CONSTRAINT IF EXISTS ck_drug_use_range,
+DROP CONS' at line 2
+02:03:45 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range,' at line 2
+02:03:58 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS ck_smoke_range' at line 2
+02:06:10 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+02:07:17 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+02:07:32 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+02:12:53 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 12
+02:13:31 [ERR][SQL Editor Form]: Error Code: 1054. Unknown column 'USA' in 'field list'
+02:15:16 [ERR][SQL Editor Form]: Error Code: 1304. PROCEDURE country_health_data already exists
+02:16:06 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 12
+02:40:36 [ERR][SQL Editor Form]: Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`death_database`.`addiction`, CONSTRAINT `addiction_ibfk_1` FOREIGN KEY (`iso_code`) REFERENCES `countries` (`iso_code`) ON DELETE CASCADE)
+02:41:11 [ERR][SQL Editor Form]: Error Code: 1062. Duplicate entry 'USA' for key 'addiction.PRIMARY'
+02:41:23 [ERR][SQL Editor Form]: Error Code: 1062. Duplicate entry 'ITA' for key 'addiction.PRIMARY'
+02:52:39 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+02:52:39 [INF][      Workbench]: Shutting down Workbench
+02:52:39 [INF][ mforms managed]: Shutting down mforms wrapper
+02:52:39 [INF][      Workbench]: Done

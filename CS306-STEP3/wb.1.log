@@ -1,0 +1,59 @@
+03:31:51 [ERR][      Workbench]: Console redirection failed.
+03:31:51 [INF][      Workbench]: Starting up Workbench
+03:31:51 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" "C:\Users\yucea\OneDrive\Masaüstü\step3\DATABASE_STEP3.sql"
+	CurrentDirectory: C:\Users\yucea\OneDrive\Masaüstü\step3
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: -1868177406
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 42557440
+03:31:51 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-UBBRIKR
+	USERPROFILE = C:\Users\yucea
+	HOMEPATH = \Users\yucea
+	LOCALAPPDATA = C:\Users\yucea\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	AMDRMPATH = C:\Program Files\AMD\RyzenMaster\
+	LOGONSERVER = \\DESKTOP-UBBRIKR
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	USERNAME = yucea
+	__PSLockDownPolicy = 0
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	APPDATA = C:\Users\yucea\AppData\Roaming
+	Path = C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\yucea\AppData\Local\Microsoft\WindowsApps;C:\Users\yucea\.dotnet\tools
+	PROCESSOR_LEVEL = 25
+	OneDrive = C:\Users\yucea\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-UBBRIKR
+	PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+	OneDriveConsumer = C:\Users\yucea\OneDrive
+	USERDOMAIN = DESKTOP-UBBRIKR
+	SystemDrive = C:
+	TEMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 12
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\yucea\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 2100
+	PUBLIC = C:\Users\Public
+03:31:51 [INF][      Workbench]: Current version given by meta info is: 8.0.32
+03:31:51 [INF][      Workbench]: Exiting as another instance of WB is already running.
+03:31:51 [INF][      WBContext]: Opening SQL Editor window to ''...
+03:31:51 [INF][        WQE.net]: Launching SQL IDE
+03:31:51 [INF][        WQE.net]: SQL IDE UI is ready
+03:39:50 [INF][        WQE.net]: Shutting down SQL editor (unconnected)
